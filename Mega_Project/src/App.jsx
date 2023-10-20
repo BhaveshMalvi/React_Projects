@@ -23,7 +23,7 @@ function App() {
   }, [])
   
   return !loading ? (
-    <div className=' flex flex-wrap content-between bg-sky-300 rounded-t-3xl drop-shadow-2xl'>
+    <div className=' flex flex-wrap content-between bg-sky-300 rounded-3xl drop-shadow-2xl'>
       <div className='w-full block relative '>
         <Header />
         <main>
