@@ -1,0 +1,20 @@
+{
+    "docwriter.progress.trackClasses": false,
+    "docwriter.progress.trackTypes": true,
+    "docwriter.progress.trackFunctions": false,
+    "docwriter.progress.trackMethods": false,
+    "docwriter.style": "Google",
+    "git.enabled": true,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.historyBasedLanguageDetection": true,
+    "search.quickOpen.includeHistory": true,
+    "workbench.settings.openDefaultKeybindings": false,
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": true,
+    "screencastMode.keyboardOptions": {
+        "showCommandGroups": true
+    },
+    "window.autoDetectColorScheme": true,
+    "window.closeWhenEmpty": false,
+    "editor.snippetSuggestions": "inline"
+}
