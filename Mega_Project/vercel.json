@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*\\.(json|xml|txt))",
+      "headers": { "Content-Type": "text/plain" },
+      "continue": true
+    },
+    {
+      "src": "/(.*\\.(js|css|jpg|jpeg|png|gif|ico|mp4|webm))",
+      "headers": { "Cache-Control": "max-age=31536000, immutable" },
+      "continue": true
+    },
+    {
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/login",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/signup",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/all-posts",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/add-post",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/edit-post/([^/]+)",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/post/([^/]+)",
+      "dest": "/index.html"
+    }
+  ]
+}
