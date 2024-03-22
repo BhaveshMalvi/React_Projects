@@ -17,9 +17,12 @@
 
 ## useEffect(fn, dependency), useEffect(fn, []) 
 - > goal only for target change hone par run hota he. it means effect then called a use effect run .
+- > Controll the side Effect to there other Components.
+- > at one time to render that hook if this component was a render.
 
 ## useRef : useRef()
 - >   only one time run not take simuntainiously run useCallback() only store memory( catch);
+- > tha is not a re-render if any target field. un-necessay rendering avoided.
 
 
 ##

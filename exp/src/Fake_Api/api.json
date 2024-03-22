@@ -1,0 +1,28 @@
+// json-server api.json --port 4000   
+
+{
+
+    "users":[{
+    "name":"Gotyo",
+    "age":"60",
+    "email":"mavli@gmail.com"
+
+
+
+},{
+    "name":"Gotyo",
+    "age":"60",
+    "email":"mavli@gmail.com"
+
+
+
+},{
+    "name":"Gotyo",
+    "age":"60",
+    "email":"mavli@gmail.com"
+
+
+
+}]
+
+}

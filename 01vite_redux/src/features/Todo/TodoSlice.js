@@ -7,6 +7,7 @@ const initialState ={
     edit: {id: null, text: null}
 }
 
+
 // reducer is a one type of Functonality
 // step 3
 export const todoSlice = createSlice({
@@ -18,7 +19,6 @@ export const todoSlice = createSlice({
         addTodo: (state, action) => {
             const todo = {
                 id: nanoid(),
-                
                 text: action.payload
             }
             state.todos.push(todo)

@@ -4,6 +4,9 @@
 ## Installation setup
 ### Link : https://redux-toolkit.js.org/introduction/getting-started
 
+## Information about Redux Toolkit
+### Link : https://www.shawndsilva.com/blog/web-development/differences-between-redux-and-redux-toolkit-and-why-should-you-upgrade
+
 #
 ## What's Included
 ### Redux Toolkit includes these APIs:
