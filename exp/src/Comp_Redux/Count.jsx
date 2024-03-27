@@ -9,8 +9,7 @@ function Count() {
     <div>
         <h1>
           {count}
-          
-          </h1>
+        </h1>
     </div>
   )
 }
